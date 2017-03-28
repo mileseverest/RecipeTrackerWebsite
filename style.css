@@ -1,0 +1,44 @@
+body {
+    background-color: solid white;
+}
+table, th, td {
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 1px solid #ddd;
+}
+table {
+   	border-collapse: collapse;
+	width: 100%;
+}
+th {
+	text-align: left;
+	background-color: #4CAF50;
+   	color: white;
+}
+th, td {
+   	vertical-align: middle;
+	padding: 15px;
+}
+tr:nth-child(even){background-color: #f2f2f2}	
+
+
+a:link, a:visited {
+	width: 95%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-size:20px;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+	font-size:14px;
+}
